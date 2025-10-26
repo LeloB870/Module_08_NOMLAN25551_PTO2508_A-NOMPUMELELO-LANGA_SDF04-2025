@@ -3,16 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Footer</title>
 </head>
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
         <div class="container px-6 py-12 mx-auto">
+            <div class="newsletter">
+                <p>Subscribe to our newsletter for updates. </p>
+                <form>
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="quick-links">
+                <h4>Quick Link</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Our Philosophy</a></li>
+                </ul>
+            </div>
+            
+            <div class="technologies">
+                <h4>Technologies</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            
+            <hr/>
+
             <div class="flex">
                 <a href="#">
                     <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
                 </a>
             </div>
+
         </div>
     </footer>
 </body>
